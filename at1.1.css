@@ -1,0 +1,200 @@
+*{
+    border: 0px;
+    margin: 0px;
+
+}
+body{
+    /*ANY PHOTO url(HERE)*/
+    background-image: url(MY.png);
+/*    background: #bba6a6;
+background: linear-gradient(147deg, rgba(130, 14, 14, 0.37) 44%, rgba(2, 0, 38, 0.62) 100%), url(kp.png);*/
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+.headerd{
+    padding: 1%;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-image: linear-gradient(60deg, brown, navy);
+    opacity: 90%;
+}
+.srch{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    transform: translateY(10vh);
+}
+input{
+    width: 60vw;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 24px;
+    color: white;
+    border-left: none;
+    padding-left: 5px;
+}
+button{
+    width: 8em;
+    padding: 0;
+    font-size: 1.3em;
+    background-color: transparent;
+     border: 2px solid white;
+     border-radius: 4px;
+     color: white;
+}
+.pano-nako{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 3em;
+    transform: translateY(20vh);
+}
+#aray-ko{
+    width: 20vw;
+    height: 20vh;
+    border: .2em solid black;
+    border-radius: 10px;
+}
+#lalamo{
+    width: 20vw;
+    height: 20vh;
+    border: .2em solid black;
+    border-radius: 10px;
+}
+#pakak{
+   width: 20vw;
+    height: 20vh; 
+    border: .2em solid black;
+    border-radius: 10px;
+}
+.btnt{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    transform: translateY(50vh);
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    .pano-nako{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(11vh);
+    }
+    #aray-ko{
+    width: 50vw;
+    height: 40vh;
+    border: .2em solid black;
+    border-radius: 10px;
+}
+#lalamo{
+    width: 50vw;
+    height: 40vh;
+    border: .2em solid black;
+    border-radius: 10px;
+}
+#pakak{
+   width: 50vw;
+    height: 40vh; 
+    border: .2em solid black;
+    border-radius: 10px;
+}
+body{
+    height: 220vh;
+/*    background: #bba6a6;
+background: linear-gradient(147deg, rgba(130, 14, 14, 0.37) 44%, rgba(2, 0, 38, 0.62) 100%), url(kp.png);*/
+    background-image: linear-gradient(60deg, brown, navy);
+}
+.srch{
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    transform: translateY(5vh);
+}
+    button{
+        width: 8em;
+        padding: 0;
+        font-size: .8em;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 4px;
+        color: white;
+    }
+
+    h4{
+        font-size: .6em;
+    }
+
+}
+
+@media (max-width: 320px){
+
+    .pano-nako{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(11vh);
+    }
+    #aray-ko{
+    width: 50vw;
+    height: 40vh;
+    border: .2em solid black;
+    border-radius: 10px;
+}
+#lalamo{
+    width: 50vw;
+    height: 40vh;
+    border: .2em solid black;
+    border-radius: 10px;
+}
+#pakak{
+   width: 50vw;
+    height: 40vh; 
+    border: .2em solid black;
+    border-radius: 10px;
+}
+body{
+    height: 220vh;
+/*    background: #bba6a6;
+background: linear-gradient(147deg, rgba(130, 14, 14, 0.37) 44%, rgba(2, 0, 38, 0.62) 100%), url(kp.png);*/
+    background-image: linear-gradient(60deg, brown, navy);
+}
+.srch{
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    transform: translateY(5vh);
+}
+    button{
+        width: 8em;
+        padding: 0;
+        font-size: .8em;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 4px;
+        color: white;
+    }
+
+    h4{
+        font-size: .6em;
+    }
+
+    img{
+    height: 40px;
+    width: 40px;
+}
+
+
+}

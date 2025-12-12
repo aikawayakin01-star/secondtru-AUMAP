@@ -1,0 +1,130 @@
+*{
+    border: 0px;
+    margin: 0px;
+
+}
+body{
+    background-image: url(MY.png);
+}
+.container1{
+    transform: translateY(40vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tow{
+    width: 50vw;
+    
+    backdrop-filter: blur(17px);
+}
+select{
+   border: none;
+   padding: 5px;
+   font-size: 19px;
+   border-radius: 20px;
+   background-image:linear-gradient(30deg, brown, navy);
+   color: rgb(18, 19, 19);
+   margin: 0.67rem;
+}
+button{
+    border: 40px;
+    background: transparent;
+    font-size: 16px;
+    text-decoration: none;
+    color: azure;
+    border: .1rem solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+button:hover{
+    color: burlywood;
+}
+.naku{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(40vh);
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+.headerd{
+    padding: 1%;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-image: linear-gradient(60deg, brown, navy);
+    opacity: 90%;
+}
+footer{
+    transform: translateY(65.7vh);
+    background-image: linear-gradient(60deg, brown, navy);
+    /*padding-bottom: 4.96%;*/
+    /*padding-bottom: 5.80%;*/
+    height: 10vh;
+    opacity: 60%;
+    box-sizing: border-box auto;
+}
+h1{
+    transform: translateY(14vh);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-weight: 500px;
+    font-size: 60px;
+}
+
+@media(max-width: 500px){
+    h1{
+    transform: translateY(14vh);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-weight: 500px;
+    font-size: 30px;
+}
+h4{
+    font-size: 10px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
+body{
+    background-image: url(MY2.png);
+}
+
+}
+
+@media(max-width: 320px){
+    h1{
+    transform: translateY(14vh);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-weight: 500px;
+    font-size: 30px;
+}
+h4{
+    font-size: 10px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+body{
+    background-image: url(baby.png);
+}
+
+}
+
