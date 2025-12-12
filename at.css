@@ -105,7 +105,7 @@ body{
 
 }
 
-@media(max-width: 320px){
+@media(max-width: 720px) and (max-height: 1640px){
     h1{
     transform: translateY(14vh);
     display: flex;
@@ -123,8 +123,9 @@ img{
     width: 40px;
 }
 body{
-    background-image: url(baby.png);
+    background-image: url(bab.png);
 }
 
 }
+
 
